@@ -1,6 +1,9 @@
 import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 
+const bookingUrl =
+  "https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH";
+
 export default function Home() {
   return (
     <main className="bg-[#F7F4EF] text-[#222]">
@@ -18,25 +21,26 @@ export default function Home() {
 
         <header className="absolute top-0 z-20 w-full px-5 py-6 md:px-12 md:py-8">
           <div className="flex items-start justify-between gap-4">
-            <Image
-              src="/images/HollysHideaway Logo.png"
-              alt="Holly's Hideaway"
-              width={420}
-              height={100}
-              className="w-[230px] md:w-[420px]"
-            />
+            <a href="/">
+              <Image
+                src="/images/HollysHideaway Logo.png"
+                alt="Holly's Hideaway"
+                width={420}
+                height={100}
+                className="w-[320px] md:w-[580px]"
+              />
+            </a>
 
             <nav className="hidden items-center gap-10 text-xs tracking-[0.3em] text-black md:flex">
-              <a href="https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH"
-target="_blank">HOME</a>
               <a href="#services">SERVICES</a>
               <a href="#gallery">GALLERY</a>
               <a href="#about">ABOUT ME</a>
               <a href="#contact">CONTACT</a>
 
               <a
-                href="https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH"
-target="_blank"
+                href={bookingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="rounded-full bg-black px-6 py-4 text-white transition hover:bg-[#2F2F2F]"
               >
                 BOOK NOW
@@ -44,8 +48,9 @@ target="_blank"
             </nav>
 
             <a
-              href="https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH"
-target="_blank"
+              href={bookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-1 inline-block rounded-full bg-black px-5 py-3 text-[10px] tracking-[0.25em] text-white md:hidden"
             >
               BOOK
@@ -66,8 +71,9 @@ target="_blank"
             </p>
 
             <a
-              href="https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH"
-target="_blank"
+              href={bookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block rounded-full bg-black px-8 py-4 text-[11px] tracking-[0.28em] text-white transition hover:bg-[#2F2F2F] md:px-10 md:py-5 md:text-xs md:tracking-[0.35em]"
             >
               BOOK APPOINTMENT
@@ -261,8 +267,9 @@ target="_blank"
               </div>
 
               <a
-                href="https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH"
-target="_blank"
+                href={bookingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-10 inline-block rounded-full bg-black px-8 py-4 text-xs tracking-[0.3em] text-white transition hover:bg-[#2F2F2F]"
               >
                 BOOK APPOINTMENT
@@ -308,6 +315,7 @@ target="_blank"
                   <a
                     href="https://instagram.com/hollys_hideaway_"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="transition hover:opacity-60"
                   >
                     @hollys_hideaway_
