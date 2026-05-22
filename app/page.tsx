@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 
@@ -339,10 +337,6 @@ target="_blank"
           </div>
         </section>
       </FadeIn>
-      <script
-  src="https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH.js"
-  async
-></script>
     </main>
   );
 }
