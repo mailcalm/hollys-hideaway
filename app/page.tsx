@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 
@@ -27,14 +29,16 @@ export default function Home() {
             />
 
             <nav className="hidden items-center gap-10 text-xs tracking-[0.3em] text-black md:flex">
-              <a href="#">HOME</a>
+              <a href="https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH"
+target="_blank">HOME</a>
               <a href="#services">SERVICES</a>
               <a href="#gallery">GALLERY</a>
               <a href="#about">ABOUT ME</a>
               <a href="#contact">CONTACT</a>
 
               <a
-                href="#"
+                href="https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH"
+target="_blank"
                 className="rounded-full bg-black px-6 py-4 text-white transition hover:bg-[#2F2F2F]"
               >
                 BOOK NOW
@@ -42,7 +46,8 @@ export default function Home() {
             </nav>
 
             <a
-              href="#"
+              href="https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH"
+target="_blank"
               className="mt-1 inline-block rounded-full bg-black px-5 py-3 text-[10px] tracking-[0.25em] text-white md:hidden"
             >
               BOOK
@@ -63,7 +68,8 @@ export default function Home() {
             </p>
 
             <a
-              href="#"
+              href="https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH"
+target="_blank"
               className="inline-block rounded-full bg-black px-8 py-4 text-[11px] tracking-[0.28em] text-white transition hover:bg-[#2F2F2F] md:px-10 md:py-5 md:text-xs md:tracking-[0.35em]"
             >
               BOOK APPOINTMENT
@@ -257,7 +263,8 @@ export default function Home() {
               </div>
 
               <a
-                href="#"
+                href="https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH"
+target="_blank"
                 className="mt-10 inline-block rounded-full bg-black px-8 py-4 text-xs tracking-[0.3em] text-white transition hover:bg-[#2F2F2F]"
               >
                 BOOK APPOINTMENT
@@ -332,6 +339,10 @@ export default function Home() {
           </div>
         </section>
       </FadeIn>
+      <script
+  src="https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH.js"
+  async
+></script>
     </main>
   );
 }
