@@ -38,9 +38,7 @@ export default function Home() {
               <a href="#contact">CONTACT</a>
 
               <a
-                href={bookingUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#book"
                 className="rounded-full bg-black px-6 py-4 text-white transition hover:bg-[#2F2F2F]"
               >
                 BOOK NOW
@@ -48,9 +46,7 @@ export default function Home() {
             </nav>
 
             <a
-              href={bookingUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#book"
               className="mt-1 inline-block rounded-full bg-black px-5 py-3 text-[10px] tracking-[0.25em] text-white md:hidden"
             >
               BOOK
@@ -71,9 +67,7 @@ export default function Home() {
             </p>
 
             <a
-              href={bookingUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#book"
               className="inline-block rounded-full bg-black px-8 py-4 text-[11px] tracking-[0.28em] text-white transition hover:bg-[#2F2F2F] md:px-10 md:py-5 md:text-xs md:tracking-[0.35em]"
             >
               BOOK APPOINTMENT
@@ -90,17 +84,14 @@ export default function Home() {
               <div className="mb-4 text-3xl">✦</div>
               <p className="text-xs tracking-[0.3em]">PRIVATE STUDIO</p>
             </div>
-
             <div>
               <div className="mb-4 text-3xl">♡</div>
               <p className="text-xs tracking-[0.3em]">ONE-TO-ONE CARE</p>
             </div>
-
             <div>
               <div className="mb-4 text-3xl">✧</div>
               <p className="text-xs tracking-[0.3em]">LUXURY PRODUCTS</p>
             </div>
-
             <div>
               <div className="mb-4 text-3xl">◌</div>
               <p className="text-xs tracking-[0.3em]">RELAXED APPOINTMENTS</p>
@@ -187,7 +178,7 @@ export default function Home() {
 
       {/* GALLERY */}
       <FadeIn>
-        <section id="gallery" className="bg-[#EFE7DC] px-6 py-20">
+        <section id="gallery" className="bg-[#F7F4EF] px-6 py-20">
           <div className="mx-auto max-w-6xl">
             <p className="mb-10 text-sm uppercase tracking-[0.3em] text-[#8A7F72]">
               Gallery
@@ -226,7 +217,7 @@ export default function Home() {
 
       {/* ABOUT ME */}
       <FadeIn>
-        <section id="about" className="bg-[#F7F4EF] px-6 py-20">
+        <section id="about" className="bg-[#EFE7DC] px-6 py-20">
           <div className="mx-auto grid max-w-6xl gap-12 md:grid-cols-2 md:items-center">
             <div className="overflow-hidden rounded-[2rem]">
               <img
@@ -267,9 +258,7 @@ export default function Home() {
               </div>
 
               <a
-                href={bookingUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#book"
                 className="mt-10 inline-block rounded-full bg-black px-8 py-4 text-xs tracking-[0.3em] text-white transition hover:bg-[#2F2F2F]"
               >
                 BOOK APPOINTMENT
@@ -281,7 +270,7 @@ export default function Home() {
 
       {/* CONTACT */}
       <FadeIn>
-        <section id="contact" className="bg-[#EFE7DC] px-6 py-20">
+        <section id="contact" className="bg-[#F7F4EF] px-6 py-20">
           <div className="mx-auto max-w-6xl">
             <p className="mb-6 text-sm uppercase tracking-[0.3em] text-[#8A7F72]">
               Contact
@@ -341,6 +330,51 @@ export default function Home() {
                   SEND AN ENQUIRY
                 </a>
               </div>
+            </div>
+          </div>
+        </section>
+      </FadeIn>
+       {/* BOOKING */}
+      <FadeIn>
+        <section id="book" className="bg-[#EFE7DC] px-6 py-20">
+          <div className="mx-auto max-w-6xl">
+            <div className="mb-10 grid gap-8 md:grid-cols-[1fr_1.2fr] md:items-end">
+              <div>
+                <p className="mb-6 text-sm uppercase tracking-[0.3em] text-[#8A7F72]">
+                  Book Online
+                </p>
+
+                <h2 className="text-4xl font-light leading-tight md:text-5xl">
+                  Choose your treatment and appointment time.
+                </h2>
+              </div>
+
+              <p className="max-w-xl text-lg leading-8 text-[#555]">
+                Appointments are held in Holly’s private home studio in
+                Chelsfield, Orpington. Select your service below and follow the
+                booking steps to confirm your appointment.
+              </p>
+            </div>
+
+            <div className="overflow-hidden rounded-[2rem] border border-black/10 bg-[#F7F4EF] p-3 shadow-sm md:p-5">
+              <div className="rounded-[1.5rem] bg-white p-2">
+                <iframe
+                  src={bookingUrl}
+                  title="Holly's Hideaway booking"
+                  className="h-[850px] w-full rounded-[1.25rem] border-0 bg-white"
+                />
+              </div>
+            </div>
+
+            <div className="mt-6 text-center">
+              <a
+                href={bookingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs uppercase tracking-[0.25em] text-[#8A7F72] underline underline-offset-4 transition hover:text-black"
+              >
+                Having trouble? Open booking page in a new tab
+              </a>
             </div>
           </div>
         </section>
