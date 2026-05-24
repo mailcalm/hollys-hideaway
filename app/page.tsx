@@ -275,8 +275,7 @@ export default function Home() {
 
                 <p className="max-w-xl text-lg leading-8 text-[#555]">
                   Holly’s Hideaway is a private home studio based in Chelsfield,
-                  Orpington. If you have any questions before booking, feel free
-                  to get in touch.
+                  Orpington. If you have any questions before booking, please get in touch.
                 </p>
               </div>
 
