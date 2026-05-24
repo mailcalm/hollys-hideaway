@@ -12,6 +12,20 @@ export default function Home() {
 
   return (
     <main className="bg-[#F7F4EF] text-[#222]">
+
+  {/* TOP BANNER */}
+  {/* TOP BANNER */}
+<div className="sticky top-0 z-50 overflow-hidden border-b border-black/10 bg-[#EFE7DC]">
+  <div className="animate-pulse absolute left-6 top-1/2 h-2 w-2 -translate-y-1/2 rounded-full bg-[#B08D57]" />
+
+  <div className="relative px-6 py-4 text-center">
+    <p className="text-[10px] uppercase tracking-[0.32em] text-black md:text-xs">
+      June Model Call • Gel Manicures & Builder Gel £15 • Limited Introductory Appointments
+    </p>
+
+    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-60" />
+  </div>
+</div>
       {/* HERO */}
 <section className="relative h-screen overflow-hidden">
   <img
