@@ -14,16 +14,13 @@ export default function Home() {
     <main className="bg-[#F7F4EF] text-[#222]">
 
   {/* TOP BANNER */}
-  {/* TOP BANNER */}
-<div className="sticky top-0 z-50 overflow-hidden border-b border-black/10 bg-[#EFE7DC]">
-  <div className="animate-pulse absolute left-6 top-1/2 h-2 w-2 -translate-y-1/2 rounded-full bg-[#B08D57]" />
+<div className="sticky top-0 z-50 border-b border-black/10 bg-[#EFE7DC]">
+  <div className="mx-auto flex items-center justify-center gap-3 px-4 py-3 text-center">
+    <div className="h-2 w-2 animate-pulse rounded-full bg-[#B08D57]" />
 
-  <div className="relative px-6 py-4 text-center">
-    <p className="text-[10px] uppercase tracking-[0.32em] text-black md:text-xs">
-      June Model Call • Gel Manicures & Builder Gel £15 • Limited Introductory Appointments
+    <p className="text-[9px] uppercase tracking-[0.22em] text-black md:text-xs md:tracking-[0.3em]">
+      June Model Call • Builder Gel & Gel Manicures £15
     </p>
-
-    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-60" />
   </div>
 </div>
       {/* HERO */}
@@ -81,9 +78,9 @@ export default function Home() {
       <p className="mb-6 text-[13px] leading-8 tracking-[0.24em] text-black md:mb-8 md:text-lg md:leading-10 md:tracking-[0.35em]">
         CALM ONE-TO-ONE
         <br />
-        BUILDER GEL & GEL MANICURES.
+        BUILDER GEL & GEL MANICURES
         <br />
-        IN MY PRIVATE HOME STUDIO,
+        IN MY PRIVATE HOME STUDIO
         <br />
         BASED IN CHELSFIELD, ORPINGTON.
       </p>
