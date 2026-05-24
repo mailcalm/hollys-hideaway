@@ -14,12 +14,10 @@ export default function Home() {
     <main className="bg-[#F7F4EF] text-[#222]">
       {/* HERO */}
       <section className="relative h-screen overflow-hidden">
-        <Image
+        <img
           src="/images/studio.png"
           alt="Holly's Hideaway Studio"
-          fill
-          priority
-          className="object-cover"
+          className="absolute inset-0 h-full w-full object-cover"
         />
 
         <div className="absolute inset-0 bg-black/10" />
@@ -185,43 +183,37 @@ export default function Home() {
       </FadeIn>
 
       {/* GALLERY */}
-      <FadeIn>
-        <section id="gallery" className="bg-[#F7F4EF] px-6 py-20">
-          <div className="mx-auto max-w-6xl">
-            <p className="mb-10 text-sm uppercase tracking-[0.3em] text-[#8A7F72]">
-              Gallery
-            </p>
+<FadeIn>
+  <section id="gallery" className="bg-[#F7F4EF] px-6 py-20">
+    <div className="mx-auto max-w-6xl">
+      <p className="mb-10 text-sm uppercase tracking-[0.3em] text-[#8A7F72]">
+        Gallery
+      </p>
 
-            <div className="grid gap-4 md:grid-cols-2">
-              <div className="overflow-hidden rounded-[2rem]">
-                <img
-                  src="/images/studio.png"
-                  alt="Holly's Hideaway Studio"
-                  className="h-full w-full object-cover transition duration-700 hover:scale-[1.02]"
-                />
-              </div>
-
-              <div className="grid gap-4">
-                <div className="overflow-hidden rounded-[2rem]">
-                  <img
-                    src="/images/nails.png"
-                    alt="Gel manicure"
-                    className="h-[320px] w-full object-cover transition duration-700 hover:scale-[1.02]"
-                  />
-                </div>
-
-                <div className="overflow-hidden rounded-[2rem]">
-                  <img
-                    src="/images/shed.jpg"
-                    alt="Holly's Hideaway Exterior"
-                    className="h-[320px] w-full object-cover transition duration-700 hover:scale-[1.02]"
-                  />
-                </div>
-              </div>
-            </div>
+      <div className="grid gap-4 md:grid-cols-3">
+        {[
+          { src: "/images/studio.png", alt: "Holly's Hideaway Studio" },
+          { src: "/images/nails.png", alt: "Gel manicure" },
+          { src: "/images/Products1.png", alt: "Luxury nail products" },
+          { src: "/images/Products2.png", alt: "Builder gel products" },
+          { src: "/images/Tools.png", alt: "Manicure tools" },
+          { src: "/images/shed.png", alt: "Holly's Hideaway Exterior" },
+        ].map((image) => (
+          <div
+            key={image.src}
+            className="aspect-[4/5] overflow-hidden rounded-[2rem]"
+          >
+            <img
+              src={image.src}
+              alt={image.alt}
+              className="h-full w-full object-cover transition duration-700 hover:scale-[1.02]"
+            />
           </div>
-        </section>
-      </FadeIn>
+        ))}
+      </div>
+    </div>
+  </section>
+</FadeIn>
 
       {/* ABOUT ME */}
       <FadeIn>
