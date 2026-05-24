@@ -13,98 +13,77 @@ export default function Home() {
   return (
     <main className="bg-[#F7F4EF] text-[#222]">
       {/* HERO */}
-      <section className="relative h-screen overflow-hidden">
-        <img
-          src="/images/studio.png"
-          alt="Holly's Hideaway Studio"
-          className="absolute inset-0 h-full w-full object-cover"
+<section className="relative h-screen overflow-hidden">
+  <img
+    src="/images/studio.png"
+    alt="Holly's Hideaway Studio"
+    className="absolute inset-0 h-full w-full object-cover object-center"
+  />
+
+  <div className="absolute inset-0 bg-black/10 md:bg-black/10" />
+
+  {/* extra mobile readability overlay only */}
+  <div className="absolute inset-0 bg-gradient-to-b from-[#F7F4EF]/80 via-[#F7F4EF]/20 to-black/35 md:hidden" />
+
+  <header className="absolute top-0 z-20 w-full px-5 py-5 md:px-12 md:py-8">
+    <div className="flex items-center justify-between gap-4 md:items-start">
+      <a href="/">
+        <Image
+          src="/images/HollysHideaway Logo.png"
+          alt="Holly's Hideaway"
+          width={420}
+          height={100}
+          className="w-[260px] md:w-[680px]"
         />
+      </a>
 
-        <div className="absolute inset-0 bg-black/10" />
+      <nav className="hidden items-center gap-10 text-xs tracking-[0.3em] text-black md:flex">
+        <a href="#services">SERVICES</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#about">ABOUT ME</a>
+        <a href="#contact">CONTACT</a>
 
-        <header className="absolute top-0 z-20 w-full px-5 py-6 md:px-12 md:py-8">
-          <div className="flex items-start justify-between gap-4">
-            <a href="/">
-              <Image
-                src="/images/HollysHideaway Logo.png"
-                alt="Holly's Hideaway"
-                width={420}
-                height={100}
-                className="w-[360px] md:w-[680px]"
-              />
-            </a>
+        <button
+          type="button"
+          onClick={() => setBookingOpen(true)}
+          className="rounded-full bg-black px-6 py-4 text-white transition hover:bg-[#2F2F2F]"
+        >
+          BOOK NOW
+        </button>
+      </nav>
 
-            <nav className="hidden items-center gap-10 text-xs tracking-[0.3em] text-black md:flex">
-              <a href="#services">SERVICES</a>
-              <a href="#gallery">GALLERY</a>
-              <a href="#about">ABOUT ME</a>
-              <a href="#contact">CONTACT</a>
+      <button
+        type="button"
+        onClick={() => setBookingOpen(true)}
+        className="rounded-full bg-black px-6 py-4 text-[10px] tracking-[0.25em] text-white md:hidden"
+      >
+        BOOK
+      </button>
+    </div>
+  </header>
 
-              <button
-                type="button"
-                onClick={() => setBookingOpen(true)}
-                className="rounded-full bg-black px-6 py-4 text-white transition hover:bg-[#2F2F2F]"
-              >
-                BOOK NOW
-              </button>
-            </nav>
+  <div className="relative z-10 flex h-full items-end px-6 pb-20 pt-28 md:items-center md:px-12 md:pb-0 md:pt-0">
+    <div className="max-w-xl rounded-[1.5rem] bg-[#F7F4EF]/75 p-5 backdrop-blur-sm md:bg-transparent md:p-0 md:backdrop-blur-0">
+      <p className="mb-6 text-[13px] leading-8 tracking-[0.24em] text-black md:mb-8 md:text-lg md:leading-10 md:tracking-[0.35em]">
+        CALM ONE-TO-ONE
+        <br />
+        BUILDER GEL & GEL MANICURES.
+        <br />
+        IN MY PRIVATE HOME STUDIO,
+        <br />
+        BASED IN CHELSFIELD, ORPINGTON.
+      </p>
 
-            <button
-              type="button"
-              onClick={() => setBookingOpen(true)}
-              className="mt-1 inline-block rounded-full bg-black px-5 py-3 text-[10px] tracking-[0.25em] text-white md:hidden"
-            >
-              BOOK
-            </button>
-          </div>
-        </header>
-
-        <div className="relative z-10 flex h-full items-center px-6 pt-28 md:px-12 md:pt-0">
-          <div className="max-w-xl">
-            <p className="mb-8 text-sm leading-9 tracking-[0.28em] text-black md:text-lg md:leading-10 md:tracking-[0.35em]">
-              CALM ONE-TO-ONE
-              <br />
-              BUILDER GEL & GEL MANICURES.
-              <br />
-              IN MY PRIVATE HOME STUDIO,
-              <br />
-              BASED IN CHELSFIELD, ORPINGTON.
-            </p>
-
-            <button
-              type="button"
-              onClick={() => setBookingOpen(true)}
-              className="inline-block rounded-full bg-black px-8 py-4 text-[11px] tracking-[0.28em] text-white transition hover:bg-[#2F2F2F] md:px-10 md:py-5 md:text-xs md:tracking-[0.35em]"
-            >
-              BOOK APPOINTMENT
-            </button>
-          </div>
-        </div>
-      </section>
-
-      {/* FEATURES */}
-      <FadeIn>
-        <section className="bg-[#EFE7DC] px-6 py-10">
-          <div className="mx-auto grid max-w-6xl grid-cols-2 gap-10 text-center md:grid-cols-4">
-            <div>
-              <div className="mb-4 text-3xl">✦</div>
-              <p className="text-xs tracking-[0.3em]">PRIVATE STUDIO</p>
-            </div>
-            <div>
-              <div className="mb-4 text-3xl">♡</div>
-              <p className="text-xs tracking-[0.3em]">ONE-TO-ONE CARE</p>
-            </div>
-            <div>
-              <div className="mb-4 text-3xl">✧</div>
-              <p className="text-xs tracking-[0.3em]">LUXURY PRODUCTS</p>
-            </div>
-            <div>
-              <div className="mb-4 text-3xl">◌</div>
-              <p className="text-xs tracking-[0.3em]">RELAXED APPOINTMENTS</p>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
+      <button
+        type="button"
+        onClick={() => setBookingOpen(true)}
+        className="inline-block rounded-full bg-black px-7 py-4 text-[10px] tracking-[0.25em] text-white transition hover:bg-[#2F2F2F] md:px-10 md:py-5 md:text-xs md:tracking-[0.35em]"
+      >
+        BOOK APPOINTMENT
+      </button>
+    </div>
+  </div>
+</section>
 
       {/* SERVICES */}
       <FadeIn>
