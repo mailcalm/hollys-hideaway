@@ -228,22 +228,19 @@ export default function Home() {
 
               <div className="space-y-6 text-lg leading-8 text-[#555]">
                 <p>
-                  I’m 39 years old, mum to two girls, and after qualifying in
-                  builder gel in 2025, I’ve spent the past year practicing
-                  everything I’ve learnt whilst continuing to educate myself and
-                  refine my skills.
+                  I’m 39 years old, mum to two girls, and after qualifying as a nail technician in 2025, I’ve dedicated my time to practice, refining my skills and investing in further education to provide the highest standard of manicure treatments possible.
                 </p>
 
                 <p>
-                  Holly’s Hideaway was created to offer a slower paced,
-                  personalised experience in a calm and welcoming private studio
-                  setting.
+                  My aim is to offer more than just beautiful nails. Every appointment is designed to feel relaxed, luxurious and personal. A peaceful escape from busy everyday life where you can feel comfortable, cared for and completely at ease.
                 </p>
 
                 <p>
-                  I love creating appointments that feel relaxed, comfortable
-                  and detail-focused — with time taken to make every client feel
-                  looked after.
+                  I’m passionate about natural nail health, attention to detail and creating a welcoming experience for every client who walks through the door. I want you to leave feeling refreshed, confident and looked after.
+                </p>
+
+                <p>
+                  I look forward to welcoming you to the Hideaway!
                 </p>
               </div>
 
