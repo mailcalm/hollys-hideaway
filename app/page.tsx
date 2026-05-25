@@ -229,7 +229,7 @@ export default function Home() {
 
               <div className="space-y-6 text-lg leading-8 text-[#555]">
                 <p>
-                  I’m a mum of two little girls, and after qualifying as a nail technician in 2025, I’ve dedicated my time to practice, refining my skills and investing in further education to provide the highest standard of manicure treatments possible.
+                  I’m a mum of two little girls, and after qualifying as a nail technician in 2025, I’ve been practicing and refining my skills and investing in further education to provide the highest standard of manicure treatments possible.
                 </p>
 
                 <p>
