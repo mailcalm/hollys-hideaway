@@ -73,8 +73,8 @@ export default function Home() {
     </div>
   </header>
 
-  <div className="relative z-10 flex h-full items-start px-6 pt-[38vh] md:items-center md:px-12 md:pt-0">
-  <div className="max-w-xl rounded-[1.5rem] bg-white/15 p-5 backdrop-blur-[1.5px] md:bg-transparent md:p-0 md:backdrop-blur-0">
+  <div className="relative z-10 flex h-full items-start px-6 pt-[22vh] md:items-center md:px-12 md:pt-0">
+  <div className="max-w-xl rounded-[1.5rem] bg-white/10 p-5 backdrop-blur-[1px] md:bg-transparent md:p-0 md:backdrop-blur-0">
       <p className="mb-6 text-[13px] leading-8 tracking-[0.24em] text-black md:mb-8 md:text-lg md:leading-10 md:tracking-[0.35em]">
         CALM ONE-TO-ONE
         <br />
