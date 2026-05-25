@@ -128,9 +128,9 @@ export default function Home() {
             time: "1 hour 15 mins",
             text: "A detail-focused, gentle e-file manicure with cuticle work, precise shaping, hot towel, exfoliating scrub and hand massage. Completed with luxury hand cream, nourishing oil and fragrance spritz.",
             extras: [
-              "WITH REMOVAL + £10",
-              "WITH FRENCH TIP + £5",
-              "WITH MINIMAL NAIL ART + £5",
+              "REMOVAL + £10",
+              "FRENCH TIP + £5",
+              "MINIMAL NAIL ART + £5",
             ],
           },
         ].map((service) => (
