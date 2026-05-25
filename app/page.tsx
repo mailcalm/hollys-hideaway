@@ -73,9 +73,9 @@ export default function Home() {
     </div>
   </header>
 
-  <div className="relative z-10 flex h-full items-center px-6 pt-36 md:px-12 md:pt-0">
-  <div className="max-w-xl">
-      <p className="mb-6 text-[13px] leading-8 tracking-[0.24em] text-black drop-shadow-[0_1px_2px_rgba(255,255,255,0.65)] md:mb-8 md:text-lg md:leading-10 md:tracking-[0.35em]">
+  <div className="relative z-10 flex h-full items-start px-6 pt-[42vh] md:items-center md:px-12 md:pt-0">
+  <div className="max-w-xl rounded-[1.5rem] bg-white/20 p-5 backdrop-blur-[2px]">
+      <p className="mb-6 text-[13px] leading-8 tracking-[0.24em] text-black md:mb-8 md:text-lg md:leading-10 md:tracking-[0.35em]">
         CALM ONE-TO-ONE
         <br />
         BUILDER GEL & GEL MANICURES
