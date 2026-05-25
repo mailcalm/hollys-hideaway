@@ -34,7 +34,7 @@ export default function Home() {
   <div className="absolute inset-0 bg-black/10 md:bg-black/10" />
 
   {/* extra mobile readability overlay only */}
-  <div className="absolute inset-0 bg-gradient-to-b from-[#F7F4EF]/80 via-[#F7F4EF]/20 to-black/35 md:hidden" />
+  <div className="absolute inset-0 bg-gradient-to-b from-[#F7F4EF]/70 via-transparent to-black/45 md:hidden" />
 
   <header className="absolute top-0 z-20 w-full px-5 py-5 md:px-12 md:py-8">
     <div className="flex items-center justify-between gap-4 md:items-start">
@@ -73,7 +73,7 @@ export default function Home() {
     </div>
   </header>
 
-  <div className="relative z-10 flex h-full items-end px-6 pb-20 pt-28 md:items-center md:px-12 md:pb-0 md:pt-0">
+  <div className="relative z-10 flex h-full items-center px-6 pt-36 md:px-12 md:pt-0">
   <div className="max-w-xl">
       <p className="mb-6 text-[13px] leading-8 tracking-[0.24em] text-black drop-shadow-[0_1px_2px_rgba(255,255,255,0.65)] md:mb-8 md:text-lg md:leading-10 md:tracking-[0.35em]">
         CALM ONE-TO-ONE
