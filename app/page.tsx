@@ -126,7 +126,7 @@ export default function Home() {
             title: "Gel Manicure",
             price: "£35",
             time: "1 hour 15 mins",
-            text: "A detail-focused, gentle e-file manicure with cuticle work, precise shaping, hot towel, exfoliating scrub and hand massage. Completed with luxury hand cream, nourishing oil and fragrance spritz.",
+            text: "A detail-focused, gentle e-file manicure with cuticle work, nail shaping, hot towel, exfoliating scrub and hand massage. Completed with luxury hand cream, nourishing oil and fragrance spritz.",
             extras: [
               "REMOVAL + £10",
               "FRENCH TIP + £5",
