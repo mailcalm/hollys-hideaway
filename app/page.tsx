@@ -19,7 +19,7 @@ export default function Home() {
     <div className="h-2 w-2 animate-pulse rounded-full bg-[#B08D57]" />
 
     <p className="text-[9px] uppercase tracking-[0.22em] text-black md:text-xs md:tracking-[0.3em]">
-      June Model Call • Builder Gel & Gel Manicures £15
+      DISCOUNTED INTRODUCTORY APPOINTMENTS • Builder Gel & Gel Manicures £15
     </p>
   </div>
 </div>
