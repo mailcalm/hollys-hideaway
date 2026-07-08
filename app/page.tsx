@@ -101,7 +101,7 @@ export default function Home() {
                   title: "Builder Gel Rebalance Manicure",
                   price: "£39",
                   time: "1 hour 30 mins",
-                  text: "A maintenance treatment designed to restore strength, balance and structure as your natural nails grow. Existing builder gel is gently refined, the shape is rebalanced, and the apex is carefully rebuilt to support the nail’s natural stress points. Length can be adjusted if needed. Fresh builder gel is applied to reinforce and perfect the structure. Completed with luxury hand cream, massageand nourishing oil.",
+                  text: "A maintenance treatment designed to restore strength, balance and structure as your natural nails grow. Existing builder gel is gently refined, the shape is rebalanced, and the apex is carefully rebuilt to support the nail’s natural stress points. Length can be adjusted if needed. Fresh builder gel is applied to reinforce and perfect the structure. Completed with luxury hand cream, massage and nourishing oil.",
                   extras: [
                     "Gel Colour Overlay + £5",
                     "French Tip + £5",
@@ -112,7 +112,7 @@ export default function Home() {
                   title: "Gel Manicure",
                   price: "£30",
                   time: "1 hour 15 mins",
-                  text: "A detail-focused, gentle e-file manicure with cuticle work and nail shaping. Completed with luxury hand cream, massage and nourishing oil.",
+                  text: "A detail-focused, gentle e-file manicure with cuticle work and nail shaping. Gel polish is then carefully applied for strength. Completed with luxury hand cream, massage and nourishing oil.",
                   extras: [
                     "REMOVAL + £8",
                     "FRENCH TIP + £5",
