@@ -5,7 +5,7 @@ import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 
 const bookingUrl =
-  "https://app.squareup.com/appointments/buyer/widget/poecqakuzxegtm/LFCVWV3S5QHEH";
+  "https://www.fresha.com/book-now/hollys-hideaway-lcdzivqr/all-offer?share=true&pId=3032465";
 
 export default function Home() {
   const [bookingOpen, setBookingOpen] = useState(false);
