@@ -7,6 +7,17 @@ const bookingUrl =
 export default function Home() {
   return (
     <main className="bg-[#F7F4EF] text-[#222]">
+      {/* TOP BANNER */}
+      <div className="sticky top-0 z-50 border-b border-black/10 bg-[#EFE7DC]">
+        <div className="mx-auto flex items-center justify-center gap-3 px-4 py-3 text-center">
+          <div className="h-2 w-2 animate-pulse rounded-full bg-[#B08D57]" />
+
+          <p className="text-[9px] uppercase tracking-[0.22em] text-black md:text-xs md:tracking-[0.3em]">
+            15% OFF FOR NEW CLIENTS
+          </p>
+        </div>
+      </div>
+
       {/* HERO */}
       <section className="relative h-screen overflow-hidden">
         <img
@@ -90,7 +101,7 @@ export default function Home() {
                   title: "Builder Gel Manicure",
                   price: "£33",
                   time: "1 hour 30 mins",
-                  text: "A detail-focused, gentle e-file manicure with cuticle work and nail shaping. Builder gel is then carefully applied for strength. Completed with luxury hand cream, massage and nourishing oil.",
+                  text: "A gentle manicure with cuticle work and nail shaping. Builder gel from The Gel Bottle, Glossify or Westmoreland Cosmetics is then applied for strength. Completed with luxury hand cream, massage and nourishing oil, using products from Navy Professional.",
                   extras: [
                     "Gel Colour Overlay + £5",
                     "French Tip + £5",
@@ -98,10 +109,10 @@ export default function Home() {
                   ],
                 },
                 {
-                  title: "Builder Gel Rebalance Manicure",
+                  title: "Builder Gel Infill Manicure",
                   price: "£35",
                   time: "1 hour 30 mins",
-                  text: "A maintenance treatment designed to restore strength, balance and structure as your natural nails grow. Existing builder gel is gently refined, the shape is rebalanced, and the apex is carefully rebuilt to support the nail’s natural stress points. Length can be adjusted if needed. Fresh builder gel is applied to reinforce and perfect the structure. Completed with luxury hand cream, massage and nourishing oil.",
+                  text: "A maintenance treatment designed to restore strength, balance and structure as your natural nails grow. Existing builder gel is gently refined, the shape is rebalanced, and the apex is carefully rebuilt to support the nail’s natural stress points. Length can be adjusted if needed. Fresh builder gel from The Gel Bottle, Glossify or Westmoreland Cosmetics is applied to reinforce and perfect the structure. Completed with luxury hand cream, massage and nourishing oil, using products from Navy Professional.",
                   extras: [
                     "Gel Colour Overlay + £5",
                     "French Tip + £5",
@@ -110,14 +121,21 @@ export default function Home() {
                 },
                 {
                   title: "Gel Manicure",
-                  price: "£28",
+                  price: "£30",
                   time: "1 hour 15 mins",
-                  text: "A detail-focused, gentle e-file manicure with cuticle work and nail shaping. Gel polish is then carefully applied for strength. Completed with luxury hand cream, massage and nourishing oil.",
+                  text: "A gentle manicure with cuticle work & nail shaping. Gel polish from The Gel Bottle, Glossify or Westmoreland Cosmetics is carefully applied for strength. Completed with luxury hand cream, massage and nourishing oil, using products from Navy Professional.",
                   extras: [
                     "REMOVAL + £8",
                     "FRENCH TIP + £5",
                     "MINIMAL NAIL ART + £5",
                   ],
+                },
+                {
+                  title: "Nail Polish Manicure",
+                  price: "£26",
+                  time: "1 hour",
+                  text: "A gentle manicure with cuticle work and nail shaping. Using Peacci polish by The Gel Bottle, a 2 in 1 base coat and nail polish are carefully applied, followed by a top coat for a long lasting, high-shine, gel like finish. Completed with luxury hand cream, massage and nourishing oil, using products from Navy Professional.",
+                  extras: [],
                 },
               ].map((service) => (
                 <div
