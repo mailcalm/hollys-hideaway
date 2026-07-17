@@ -68,7 +68,7 @@ export default function Home() {
             <p className="mb-6 text-[13px] leading-8 tracking-[0.24em] text-black md:mb-8 md:text-lg md:leading-10 md:tracking-[0.35em]">
               CALM ONE-TO-ONE
               <br />
-              BUILDER GEL & GEL MANICURES
+              BUILDER GEL, GEL AND NAIL POLISH MANICURES
               <br />
               IN MY PRIVATE HOME STUDIO
               <br />
