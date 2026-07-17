@@ -13,7 +13,7 @@ export default function Home() {
           <div className="h-2 w-2 animate-pulse rounded-full bg-[#B08D57]" />
 
           <p className="text-[9px] uppercase tracking-[0.22em] text-black md:text-xs md:tracking-[0.3em]">
-            15% OFF FOR NEW CLIENTS
+            15% OFF APPOINTMENTS FOR NEW CLIENTS
           </p>
         </div>
       </div>
