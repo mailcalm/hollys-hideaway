@@ -23,7 +23,7 @@ export default function Home() {
       <section className="relative h-screen overflow-hidden">
         <img
           src="/images/studio.png"
-          alt="Holly's Hideaway Studio"
+          alt="Private nail studio at Holly's Hideaway in Chelsfield"
           className="absolute inset-0 h-full w-full object-cover object-center"
         />
 
@@ -37,7 +37,7 @@ export default function Home() {
             <Link href="/">
               <Image
                 src="/images/HollysHideaway Logo.png"
-                alt="Holly's Hideaway"
+                alt="Holly's Hideaway nail studio"
                 width={420}
                 height={100}
                 className="mx-auto w-[300px] md:mx-0 md:w-[680px]"
@@ -205,12 +205,12 @@ export default function Home() {
 
             <div className="grid gap-4 md:grid-cols-3">
               {[
-                { src: "/images/studio.png", alt: "Holly's Hideaway Studio" },
-                { src: "/images/nails.png", alt: "Gel manicure" },
-                { src: "/images/Products1.png", alt: "Luxury nail products" },
-                { src: "/images/Products2.png", alt: "Builder gel products" },
-                { src: "/images/Tools.png", alt: "Manicure tools" },
-                { src: "/images/shed.png", alt: "Holly's Hideaway Exterior" },
+                { src: "/images/studio.png", alt: "Private nail studio at Holly's Hideaway in Chelsfield" },
+                { src: "/images/nails.png", alt: "Gel manicure completed at Holly's Hideaway" },
+                { src: "/images/Products1.png", alt: "Professional manicure products used at Holly's Hideaway" },
+                { src: "/images/Products2.png", alt: "Builder gel products used for manicure appointments" },
+                { src: "/images/Tools.png", alt: "Professional manicure tools prepared for an appointment" },
+                { src: "/images/shed.png", alt: "Exterior of Holly's Hideaway private nail studio" },
               ].map((image) => (
                 <div
                   key={image.src}
@@ -235,7 +235,7 @@ export default function Home() {
             <div className="overflow-hidden rounded-[2rem]">
               <img
                 src="/images/Holly.png"
-                alt="Holly"
+                alt="Holly, nail technician at Holly's Hideaway"
                 className="h-full w-full object-cover"
               />
             </div>
