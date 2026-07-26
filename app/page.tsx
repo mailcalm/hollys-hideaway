@@ -94,6 +94,17 @@ export default function Home() {
       <FadeIn>
         <section id="services" className="bg-[#F7F4EF] px-6 py-20">
           <div className="mx-auto max-w-6xl">
+            <div className="mb-10 max-w-2xl">
+              <h1 className="text-2xl font-light leading-tight md:text-3xl">
+                Nail appointments in Chelsfield, Orpington
+              </h1>
+
+              <p className="mt-4 text-base leading-7 text-[#555]">
+                Enjoy calm, one-to-one builder gel, gel and nail polish
+                manicures from my private home studio.
+              </p>
+            </div>
+
             <p className="mb-10 text-sm uppercase tracking-[0.3em] text-[#8A7F72]">
               Services
             </p>
