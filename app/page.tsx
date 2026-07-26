@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
 
 const bookingUrl =
@@ -33,7 +34,7 @@ export default function Home() {
 
         <header className="absolute top-0 z-20 w-full px-5 py-5 md:px-12 md:py-8">
           <div className="flex items-center justify-between gap-4 md:items-start">
-            <a href="/">
+            <Link href="/">
               <Image
                 src="/images/HollysHideaway Logo.png"
                 alt="Holly's Hideaway"
@@ -41,7 +42,7 @@ export default function Home() {
                 height={100}
                 className="mx-auto w-[300px] md:mx-0 md:w-[680px]"
               />
-            </a>
+            </Link>
 
             <nav className="hidden items-center gap-10 text-xs tracking-[0.3em] text-black md:flex">
               <a href="#services">SERVICES</a>
