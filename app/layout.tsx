@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://hollyshideaway.co.uk";
+const siteUrl = "https://www.hollyshideaway.co.uk";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

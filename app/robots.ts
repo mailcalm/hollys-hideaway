@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://hollyshideaway.co.uk/sitemap.xml",
-    host: "https://hollyshideaway.co.uk",
+    sitemap: "https://www.hollyshideaway.co.uk/sitemap.xml",
+    host: "https://www.hollyshideaway.co.uk",
   };
 }
