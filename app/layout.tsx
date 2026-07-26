@@ -80,6 +80,10 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 
   category: "beauty",
+
+  verification: {
+    google: "LZ7cDhG0cIuZqs5Jv8osPuSsrvELrifmfEVpM52-ZKo",
+  },
 };
 
 export default function RootLayout({
