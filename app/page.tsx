@@ -5,9 +5,85 @@ import FadeIn from "@/components/FadeIn";
 const bookingUrl =
   "https://www.fresha.com/book-now/hollys-hideaway-lcdzivqr/all-offer?share=true&pId=3032465";
 
+const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "NailSalon",
+  name: "Holly's Hideaway",
+  url: "https://www.hollyshideaway.co.uk",
+  description:
+    "Calm one-to-one builder gel, gel and nail polish manicures from a private home nail studio in Chelsfield, Orpington.",
+  image: "https://www.hollyshideaway.co.uk/images/studio.png",
+  logo: "https://www.hollyshideaway.co.uk/images/HollysHideaway%20Logo.png",
+  email: "hollyshideawaynails@gmail.com",
+  priceRange: "££",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Chelsfield",
+    addressRegion: "Orpington",
+    addressCountry: "GB",
+  },
+  areaServed: [
+    {
+      "@type": "Place",
+      name: "Chelsfield",
+    },
+    {
+      "@type": "Place",
+      name: "Orpington",
+    },
+  ],
+  sameAs: ["https://www.instagram.com/hollys_hideaway_/"],
+  potentialAction: {
+    "@type": "ReserveAction",
+    target: bookingUrl,
+    name: "Book a nail appointment",
+  },
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Manicure services",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Builder Gel Manicure",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Builder Gel Infill Manicure",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Gel Manicure",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Nail Polish Manicure",
+        },
+      },
+    ],
+  },
+};
+
 export default function Home() {
   return (
     <main className="bg-[#F7F4EF] text-[#222]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
+
       {/* TOP BANNER */}
       <div className="sticky top-0 z-50 border-b border-black/10 bg-[#EFE7DC]">
         <div className="mx-auto flex items-center justify-center gap-3 px-4 py-3 text-center">
