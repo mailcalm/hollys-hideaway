@@ -293,26 +293,21 @@ export default function Home() {
           <div className="mx-auto max-w-6xl">
 
             {/* HEADER */}
-            <div className="border-b-2 border-black pb-8">
-              <div className="flex items-center gap-4">
-                <span className="text-lg text-black">✦</span>
-                <span className="h-px flex-1 bg-black/20" />
-              </div>
+            <div className="pb-8">
+              <p className="text-[10px] uppercase tracking-[0.36em] text-[#9A8979]">
+                New at Holly&apos;s Hideaway
+              </p>
 
-              <h2 className="mt-7 text-5xl font-semibold uppercase leading-[0.9] tracking-[-0.06em] text-[#222] md:text-7xl lg:text-[88px]">
-                The{" "}
-                <span className="relative inline-block px-[0.08em]">
-                  <span
-                    aria-hidden="true"
-                    className="absolute -inset-x-[0.02em] bottom-[0.02em] top-[0.08em] -rotate-[1.5deg] bg-black"
-                  />
-                  <span className="relative z-10 text-[#EFE7DC]">
-                    Hideaway
-                  </span>
-                </span>
+              <h2 className="mt-5 text-5xl font-light leading-[1.02] tracking-[-0.04em] text-[#222] md:text-7xl">
+                The Hideaway
                 <br />
                 Experiences
               </h2>
+
+              <div className="mt-6 flex items-center gap-4">
+                <span className="h-px w-20 bg-[#BDA995]" />
+                <span className="text-sm text-[#BDA995]">✦</span>
+              </div>
             </div>
 
             {/* LITTLE LUXURIES HERO */}
