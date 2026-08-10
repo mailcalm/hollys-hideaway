@@ -295,7 +295,7 @@ export default function Home() {
             {/* HEADER */}
             <div className="border-b-2 border-black pb-8">
               <div className="flex items-center gap-4">
-                <span className="text-xl text-black">✦</span>
+                <span className="text-lg text-black">✦</span>
                 <span className="h-px flex-1 bg-black/20" />
               </div>
 
@@ -304,6 +304,41 @@ export default function Home() {
                 <br />
                 Experiences
               </h2>
+            </div>
+
+            {/* LITTLE LUXURIES HERO */}
+            <div className="mt-8 overflow-hidden rounded-[1.5rem] bg-[#222] text-white">
+              <div className="grid md:grid-cols-[0.42fr_1.58fr]">
+                <div className="flex items-center border-b border-white/10 p-6 md:border-b-0 md:border-r md:p-7">
+                  <h3 className="text-2xl font-light leading-tight md:text-3xl">
+                    The little luxuries
+                  </h3>
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-3">
+                  {[
+                    ["Your manicure", "Nail polish, gel or builder gel"],
+                    ["Your design", "Minimal nail art"],
+                    ["Your time", "Up to two unhurried hours"],
+                    ["Your drink", "A celebratory drink"],
+                    ["Finishing touches", "Luxury hand care"],
+                    ["Your gift", "Nail aftercare gift bag to take home"],
+                  ].map(([label, item]) => (
+                    <div
+                      key={item}
+                      className="border-b border-r border-white/10 p-5 md:p-6"
+                    >
+                      <p className="text-[9px] uppercase tracking-[0.22em] text-[#9F968E]">
+                        {label}
+                      </p>
+
+                      <p className="mt-2 text-sm leading-6 text-[#F0EAE4]">
+                        {item}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
 
             {/* BRIDAL */}
@@ -459,39 +494,6 @@ export default function Home() {
                   </a>
                 </div>
               </article>
-            </div>
-
-            {/* INCLUDED */}
-            <div className="mt-8 rounded-[2rem] bg-[#222] px-8 py-9 text-white md:px-10">
-              <div className="grid gap-8 md:grid-cols-[0.48fr_1.52fr] md:items-start">
-                <div>
-                  <p className="text-[10px] uppercase tracking-[0.32em] text-[#B9ADA2]">
-                    Included
-                  </p>
-
-                  <h3 className="mt-4 text-3xl font-light leading-tight">
-                    The Experience
-                  </h3>
-                </div>
-
-                <div className="grid gap-x-8 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
-                  {[
-                    "Nail polish, gel or builder gel",
-                    "Minimal nail art",
-                    "Up to two unhurried hours",
-                    "A celebratory drink",
-                    "Luxury hand care",
-                    "Nail aftercare gift bag to take home",
-                  ].map((item) => (
-                    <div
-                      key={item}
-                      className="border-t border-white/15 pt-4 text-sm leading-6 text-[#D8D0C8]"
-                    >
-                      {item}
-                    </div>
-                  ))}
-                </div>
-              </div>
             </div>
 
             {/* FOLLOW-UP + GIFTING */}
