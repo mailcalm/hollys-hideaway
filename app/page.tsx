@@ -216,7 +216,6 @@ export default function Home() {
                   text: "A gentle manicure with cuticle work and nail shaping. Builder gel from The Gel Bottle, Glossify or Westmoreland Cosmetics is then applied for strength. Completed with luxury hand cream, massage and nourishing oil, using products from Navy Professional.",
                   extras: [
                     "Gel Colour Overlay + £5",
-                    "French Tip + £5",
                     "Minimal Nail Art + £5",
                   ],
                 },
@@ -227,7 +226,6 @@ export default function Home() {
                   text: "A maintenance treatment designed to restore strength, balance and structure as your natural nails grow. Existing builder gel is gently refined, the shape is rebalanced, and the apex is carefully rebuilt to support the nail’s natural stress points. Length can be adjusted if needed. Fresh builder gel from The Gel Bottle, Glossify or Westmoreland Cosmetics is applied to reinforce and perfect the structure. Completed with luxury hand cream, massage and nourishing oil, using products from Navy Professional.",
                   extras: [
                     "Gel Colour Overlay + £5",
-                    "French Tip + £5",
                     "Minimal Nail Art + £5",
                   ],
                 },
@@ -238,7 +236,6 @@ export default function Home() {
                   text: "A gentle manicure with cuticle work & nail shaping. Gel polish from The Gel Bottle, Glossify or Westmoreland Cosmetics is carefully applied for strength. Completed with luxury hand cream, massage and nourishing oil, using products from Navy Professional.",
                   extras: [
                     "REMOVAL + £8",
-                    "FRENCH TIP + £5",
                     "MINIMAL NAIL ART + £5",
                   ],
                 },
