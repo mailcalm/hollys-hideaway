@@ -295,7 +295,7 @@ export default function Home() {
             {/* INTRO */}
             <div className="grid gap-6 border-b border-black/15 pb-10 md:grid-cols-[0.7fr_1.3fr] md:items-end">
               <div>
-                <p className="text-[10px] uppercase tracking-[0.4em] text-[#917B67]">
+                <p className="text-[10px] uppercase tracking-[0.4em] text-[#8F2634]">
                   The Hideaway Experiences
                 </p>
               </div>
@@ -321,18 +321,18 @@ export default function Home() {
               <article className="grid gap-8 border-b border-white/15 p-8 md:grid-cols-[0.75fr_1.25fr] md:p-10">
                 <div>
                   <div className="flex items-center gap-3">
-                    <span className="text-[10px] tracking-[0.3em] text-[#C5AD95]">
+                    <span className="text-[10px] tracking-[0.3em] text-[#D98994]">
                       01
                     </span>
-                    <span className="h-px w-10 bg-[#C5AD95]/50" />
-                    <span className="text-[10px] uppercase tracking-[0.3em] text-[#C5AD95]">
+                    <span className="h-px w-10 bg-[#8F2634]/60" />
+                    <span className="text-[10px] uppercase tracking-[0.3em] text-[#D98994]">
                       Bridal
                     </span>
                   </div>
 
                   <p className="mt-6 text-3xl font-light">£115</p>
 
-                  <p className="mt-2 text-[10px] uppercase tracking-[0.24em] text-[#AFA298]">
+                  <p className="mt-2 text-[10px] uppercase tracking-[0.24em] text-[#C6B8AE]">
                     Two appointments
                   </p>
                 </div>
@@ -360,7 +360,7 @@ export default function Home() {
                       href={bridalExperienceUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="rounded-full bg-[#F8F3ED] px-6 py-3.5 text-[9px] uppercase tracking-[0.25em] text-[#292623] transition hover:bg-white"
+                      className="rounded-full bg-[#8F2634] px-6 py-3.5 text-[9px] uppercase tracking-[0.25em] text-white transition hover:bg-[#741F2B]"
                     >
                       Book Bridal Experience
                     </a>
@@ -381,11 +381,11 @@ export default function Home() {
               <article className="grid gap-7 border-b border-white/15 p-8 md:grid-cols-[0.75fr_1.25fr] md:p-10">
                 <div>
                   <div className="flex items-center gap-3">
-                    <span className="text-[10px] tracking-[0.3em] text-[#C5AD95]">
+                    <span className="text-[10px] tracking-[0.3em] text-[#D98994]">
                       02
                     </span>
-                    <span className="h-px w-10 bg-[#C5AD95]/50" />
-                    <span className="text-[10px] uppercase tracking-[0.3em] text-[#C5AD95]">
+                    <span className="h-px w-10 bg-[#8F2634]/60" />
+                    <span className="text-[10px] uppercase tracking-[0.3em] text-[#D98994]">
                       New Mum
                     </span>
                   </div>
@@ -429,11 +429,11 @@ export default function Home() {
               <article className="grid gap-7 p-8 md:grid-cols-[0.75fr_1.25fr] md:p-10">
                 <div>
                   <div className="flex items-center gap-3">
-                    <span className="text-[10px] tracking-[0.3em] text-[#C5AD95]">
+                    <span className="text-[10px] tracking-[0.3em] text-[#D98994]">
                       03
                     </span>
-                    <span className="h-px w-10 bg-[#C5AD95]/50" />
-                    <span className="text-[10px] uppercase tracking-[0.3em] text-[#C5AD95]">
+                    <span className="h-px w-10 bg-[#8F2634]/60" />
+                    <span className="text-[10px] uppercase tracking-[0.3em] text-[#D98994]">
                       Celebrate
                     </span>
                   </div>
@@ -478,18 +478,18 @@ export default function Home() {
             {/* ROCK / ROLL STATEMENT */}
             <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 border-b border-black/15 py-7 text-[10px] uppercase tracking-[0.3em] text-[#75685C]">
               <span>No rushing.</span>
-              <span className="text-[#B49B83]">/</span>
+              <span className="text-[#8F2634]">✦</span>
               <span>No add-ons.</span>
-              <span className="text-[#B49B83]">/</span>
+              <span className="text-[#8F2634]">✦</span>
               <span>No fuss.</span>
-              <span className="text-[#B49B83]">/</span>
+              <span className="text-[#8F2634]">✦</span>
               <span>Just your time.</span>
             </div>
 
             {/* INCLUSIONS */}
             <div className="grid gap-8 py-10 md:grid-cols-[0.7fr_1.3fr]">
               <div>
-                <p className="text-[10px] uppercase tracking-[0.36em] text-[#917B67]">
+                <p className="text-[10px] uppercase tracking-[0.36em] text-[#8F2634]">
                   Already included
                 </p>
 
@@ -525,7 +525,7 @@ export default function Home() {
 
             {/* 20% + GIFTING */}
             <div className="grid overflow-hidden border border-black/10 md:grid-cols-2">
-              <div className="bg-[#C3A487] p-8 text-[#FFFDF9] md:p-10">
+              <div className="bg-[#8F2634] p-8 text-[#FFFDF9] md:p-10">
                 <p className="text-[10px] uppercase tracking-[0.3em] text-white/75">
                   One more little thing
                 </p>
@@ -545,7 +545,7 @@ export default function Home() {
               </div>
 
               <div className="bg-[#FFFDF9] p-8 md:p-10">
-                <p className="text-[10px] uppercase tracking-[0.3em] text-[#917B67]">
+                <p className="text-[10px] uppercase tracking-[0.3em] text-[#8F2634]">
                   Gift a Hideaway Experience
                 </p>
 
@@ -566,7 +566,7 @@ export default function Home() {
                     href={giftCardsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-full bg-[#292623] px-6 py-3.5 text-[9px] uppercase tracking-[0.25em] text-white"
+                    className="rounded-full bg-[#8F2634] px-6 py-3.5 text-[9px] uppercase tracking-[0.25em] text-white transition hover:bg-[#741F2B]"
                   >
                     Buy a Gift Card
                   </a>
