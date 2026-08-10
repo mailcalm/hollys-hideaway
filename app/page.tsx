@@ -82,6 +82,16 @@ const localBusinessJsonLd = {
           name: "Nail Polish Manicure",
         },
       },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "The Bridal Experience",
+          description:
+            "A bridal nail trial followed by a wedding day manicure in Chelsfield, Orpington.",
+          url: "https://www.hollyshideaway.co.uk/bridal-nails-orpington",
+        },
+      },
     ],
   },
 };
@@ -414,6 +424,13 @@ export default function Home() {
                       Buy as a Gift
                     </a>
                   </div>
+
+                  <Link
+                    href="/bridal-nails-orpington"
+                    className="mt-6 inline-block text-[10px] uppercase tracking-[0.22em] text-[#5E5750] underline underline-offset-4"
+                  >
+                    Bridal details, advice & journal
+                  </Link>
                 </div>
               </div>
             </article>
