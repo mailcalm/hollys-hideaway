@@ -299,19 +299,20 @@ export default function Home() {
                 <span className="h-px flex-1 bg-black/20" />
               </div>
 
-              <div className="relative mt-7">
-                <span className="pointer-events-none absolute left-1 top-2 hidden font-light italic leading-none tracking-[-0.055em] text-black/8 md:block md:text-7xl lg:text-[88px]">
-                  Hideaway
+              <h2 className="mt-7 text-5xl font-semibold uppercase leading-[0.9] tracking-[-0.06em] text-[#222] md:text-7xl lg:text-[88px]">
+                The{" "}
+                <span className="relative inline-block px-[0.08em]">
+                  <span
+                    aria-hidden="true"
+                    className="absolute -inset-x-[0.02em] bottom-[0.02em] top-[0.08em] -rotate-[1.5deg] bg-black"
+                  />
+                  <span className="relative z-10 text-[#EFE7DC]">
+                    Hideaway
+                  </span>
                 </span>
-
-                <h2 className="relative z-10 text-5xl font-light leading-[0.9] tracking-[-0.055em] text-[#222] md:text-7xl lg:text-[88px]">
-                  The <span className="italic">Hideaway</span>
-                  <br />
-                  Experiences
-                </h2>
-
-                <div className="mt-5 h-[3px] w-24 -rotate-2 rounded-full bg-black/80" />
-              </div>
+                <br />
+                Experiences
+              </h2>
             </div>
 
             {/* LITTLE LUXURIES HERO */}
