@@ -167,14 +167,23 @@ export default function Home() {
               BASED IN CHELSFIELD, ORPINGTON.
             </p>
 
-            <a
-              href={bookingUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block rounded-full bg-black px-7 py-4 text-[10px] tracking-[0.25em] text-white transition hover:bg-[#2F2F2F] md:px-10 md:py-5 md:text-xs md:tracking-[0.35em]"
-            >
-              BOOK APPOINTMENT
-            </a>
+            <div className="flex flex-col items-start gap-3">
+              <a
+                href={bookingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block rounded-full bg-black px-7 py-4 text-[10px] tracking-[0.25em] text-white transition hover:bg-[#2F2F2F] md:px-10 md:py-5 md:text-xs md:tracking-[0.35em]"
+              >
+                BOOK APPOINTMENT
+              </a>
+
+              <a
+                href="#experiences"
+                className="inline-block rounded-full bg-black px-7 py-4 text-[10px] tracking-[0.25em] text-white transition hover:bg-[#2F2F2F] md:px-10 md:py-5 md:text-xs md:tracking-[0.35em]"
+              >
+                BOOK EXPERIENCE
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -314,13 +323,7 @@ export default function Home() {
             <div className="mt-8 rounded-[1.75rem] bg-[#222] px-7 py-8 text-white md:px-9 md:py-9">
               <div className="grid gap-8 md:grid-cols-[0.44fr_1.56fr] md:items-start">
                 <div>
-                  <div className="flex items-center gap-3 text-[#C8A56A]">
-                    <span>✦</span>
-                    <span>✦</span>
-                    <span>✦</span>
-                  </div>
-
-                  <h3 className="mt-4 text-3xl font-light leading-tight text-[#F6F1EA] md:text-4xl">
+                  <h3 className="text-3xl font-light leading-tight text-[#F6F1EA] md:text-4xl">
                     Includes:
                   </h3>
                 </div>
