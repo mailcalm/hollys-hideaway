@@ -327,7 +327,7 @@ export default function Home() {
 
                 <div className="grid gap-x-6 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
                   {[
-                    "Nail polish, gel or builder gel",
+                    "Gel, builder gel or nail polish",
                     "Minimal nail art",
                     "Up to two unhurried hours",
                     "A celebratory drink",
