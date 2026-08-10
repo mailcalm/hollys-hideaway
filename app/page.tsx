@@ -288,160 +288,157 @@ export default function Home() {
       <FadeIn>
         <section
           id="experiences"
-          className="relative overflow-hidden bg-[#F3ECE4] px-6 py-24 md:py-32"
+          className="relative overflow-hidden bg-[#F4EEE7] px-6 py-24 md:py-32"
         >
-          <div className="pointer-events-none absolute -left-24 top-16 h-72 w-72 rounded-full bg-white/70 blur-3xl" />
-          <div className="pointer-events-none absolute -right-24 bottom-20 h-80 w-80 rounded-full bg-[#E5D5C4]/55 blur-3xl" />
+          <div className="pointer-events-none absolute left-1/2 top-0 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-white/80 blur-3xl" />
+          <div className="pointer-events-none absolute -left-24 bottom-20 h-80 w-80 rounded-full bg-[#E8D8C8]/60 blur-3xl" />
+          <div className="pointer-events-none absolute -right-20 top-1/3 h-72 w-72 rounded-full bg-[#EADFD2]/70 blur-3xl" />
 
           <div className="relative mx-auto max-w-6xl">
             {/* INTRO */}
             <div className="mx-auto max-w-4xl text-center">
-              <p className="text-xs uppercase tracking-[0.38em] text-[#9A8774]">
+              <p className="text-[11px] uppercase tracking-[0.4em] text-[#9B8876]">
                 The Hideaway Experiences
               </p>
 
-              <p className="mt-6 text-4xl font-light leading-[1.12] text-[#2B2825] md:text-6xl">
+              <h2 className="mt-7 text-5xl font-light leading-[1.02] text-[#2C2926] md:text-7xl">
                 Beautiful nails.
                 <br />
                 Little luxuries.
                 <br />
-                Time that feels entirely yours.
-              </p>
+                A little escape.
+              </h2>
 
-              <p className="mx-auto mt-8 max-w-2xl text-base leading-8 text-[#6D655D] md:text-lg">
-                A little more than a manicure. Each Hideaway Experience is
-                unhurried, thoughtful and made to feel special — whether
-                you&apos;re celebrating something wonderful, treating someone
-                you love or simply taking a little time for yourself.
+              <div className="mx-auto mt-8 h-px w-24 bg-[#A99279]/50" />
+
+              <p className="mx-auto mt-8 max-w-2xl text-base leading-8 text-[#6B625A] md:text-lg">
+                Thoughtful, unhurried manicure experiences created for the
+                moments that deserve something a little more special.
               </p>
             </div>
 
-            {/* BRIDAL FEATURE */}
-            <article className="mt-16 overflow-hidden rounded-[2.5rem] border border-black/5 bg-[#FFFDF9] shadow-[0_30px_80px_rgba(80,65,50,0.10)]">
-              <div className="grid md:grid-cols-[1.05fr_0.95fr]">
-                <div className="relative min-h-[380px] overflow-hidden md:min-h-[620px]">
-                  <img
-                    src="/images/nails.png"
-                    alt="Beautiful bridal manicure at Holly's Hideaway"
-                    className="absolute inset-0 h-full w-full object-cover"
-                  />
+            {/* BRIDAL HERO CARD */}
+            <article className="relative mt-16 overflow-hidden rounded-[2.75rem] border border-[#B9A48E]/25 bg-[#FFFDF9] p-8 shadow-[0_30px_80px_rgba(74,58,44,0.08)] md:p-12 lg:p-14">
+              <div className="absolute right-[-70px] top-[-70px] h-56 w-56 rounded-full border border-[#B8A087]/20" />
+              <div className="absolute right-[-25px] top-[-25px] h-36 w-36 rounded-full border border-[#B8A087]/20" />
+              <div className="absolute bottom-[-60px] left-[-40px] h-40 w-40 rounded-full bg-[#EFE4D8]/70 blur-2xl" />
 
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent" />
-
-                  <div className="absolute bottom-7 left-7 rounded-full bg-[#FFFDF9]/90 px-5 py-3 text-[10px] uppercase tracking-[0.28em] text-[#4F463E] backdrop-blur-sm">
-                    The premium Hideaway Experience
-                  </div>
-                </div>
-
-                <div className="flex flex-col justify-center p-8 md:p-12 lg:p-14">
-                  <div className="flex items-start justify-between gap-6">
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.3em] text-[#A18D79]">
-                        For your wedding
-                      </p>
-
-                      <h2 className="mt-4 text-4xl font-light leading-tight text-[#2B2825] md:text-5xl">
-                        The Bridal Experience
-                      </h2>
+              <div className="relative">
+                <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
+                  <div className="max-w-3xl">
+                    <div className="inline-flex rounded-full border border-[#B09A83]/30 bg-[#F8F0E8] px-5 py-3 text-[10px] uppercase tracking-[0.3em] text-[#8F7A66]">
+                      The premium experience
                     </div>
 
-                    <p className="whitespace-nowrap text-3xl font-light text-[#2B2825]">
+                    <p className="mt-8 text-xs uppercase tracking-[0.3em] text-[#A18A73]">
+                      For your wedding
+                    </p>
+
+                    <h3 className="mt-4 text-4xl font-light leading-tight text-[#2C2926] md:text-6xl">
+                      The Bridal
+                      <br />
+                      Experience
+                    </h3>
+                  </div>
+
+                  <div className="text-left md:text-right">
+                    <p className="text-[10px] uppercase tracking-[0.25em] text-[#9F8D7B]">
+                      Two appointments
+                    </p>
+                    <p className="mt-2 text-4xl font-light text-[#2C2926]">
                       £115
                     </p>
                   </div>
+                </div>
 
-                  <p className="mt-7 text-base leading-8 text-[#665E56]">
+                <div className="mt-10 grid gap-10 border-t border-[#2C2926]/10 pt-10 md:grid-cols-[1.1fr_0.9fr]">
+                  <p className="max-w-xl text-lg leading-9 text-[#625A52]">
                     Two beautifully unhurried appointments designed to make
-                    your wedding nails feel completely considered. Begin with
-                    a full bridal trial to explore shape, colour and design,
-                    followed by your final wedding-day manicure.
+                    your wedding nails feel completely considered — from your
+                    full bridal trial through to your final wedding-day
+                    manicure.
                   </p>
 
-                  <div className="mt-8 space-y-4 border-y border-black/10 py-7 text-sm leading-6 text-[#554E47]">
-                    <div className="flex items-center justify-between gap-4">
-                      <span>Full bridal trial manicure</span>
-                      <span className="text-[#9A8774]">01</span>
-                    </div>
-
-                    <div className="flex items-center justify-between gap-4">
-                      <span>Final wedding-day manicure</span>
-                      <span className="text-[#9A8774]">02</span>
-                    </div>
-
-                    <div className="flex items-center justify-between gap-4">
-                      <span>French tip or minimal nail art included</span>
-                      <span className="text-[#9A8774]">Included</span>
-                    </div>
-
-                    <div className="flex items-center justify-between gap-4">
-                      <span>Up to two hours for each appointment</span>
-                      <span className="text-[#9A8774]">Unhurried</span>
-                    </div>
+                  <div className="space-y-5 text-sm text-[#4E4842]">
+                    {[
+                      "Full bridal trial manicure",
+                      "Final wedding-day manicure",
+                      "Up to two hours per appointment",
+                      "French tip or minimal nail art included",
+                    ].map((item, index) => (
+                      <div
+                        key={item}
+                        className="flex items-center gap-4 border-b border-[#2C2926]/8 pb-4 last:border-b-0"
+                      >
+                        <span className="text-[10px] tracking-[0.2em] text-[#A48D76]">
+                          0{index + 1}
+                        </span>
+                        <span>{item}</span>
+                      </div>
+                    ))}
                   </div>
+                </div>
 
-                  <div className="mt-8 flex flex-wrap gap-3">
-                    <a
-                      href={bridalExperienceUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="rounded-full bg-[#2B2825] px-7 py-4 text-[10px] uppercase tracking-[0.25em] text-white transition hover:bg-[#48413B]"
-                    >
-                      Book Bridal Experience
-                    </a>
+                <div className="mt-10 flex flex-wrap gap-3">
+                  <a
+                    href={bridalExperienceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-full bg-[#2C2926] px-8 py-4 text-[10px] uppercase tracking-[0.26em] text-white transition hover:bg-[#47413C]"
+                  >
+                    Book Bridal Experience
+                  </a>
 
-                    <a
-                      href={giftCardsUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="rounded-full border border-[#2B2825]/20 px-7 py-4 text-[10px] uppercase tracking-[0.25em] text-[#2B2825] transition hover:border-[#2B2825] hover:bg-[#2B2825] hover:text-white"
-                    >
-                      Buy as a Gift
-                    </a>
-                  </div>
+                  <a
+                    href={giftCardsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-full border border-[#2C2926]/20 px-8 py-4 text-[10px] uppercase tracking-[0.26em] text-[#2C2926] transition hover:border-[#2C2926]"
+                  >
+                    Buy as a Gift
+                  </a>
                 </div>
               </div>
             </article>
 
-            {/* NEW MUM + CELEBRATION */}
+            {/* TWO EXPERIENCES */}
             <div className="mt-8 grid gap-8 md:grid-cols-2">
-              <article className="group overflow-hidden rounded-[2.25rem] bg-[#E8DED4]">
-                <div className="relative h-[280px] overflow-hidden">
-                  <img
-                    src="/images/Products1.png"
-                    alt="Luxury manicure products at Holly's Hideaway"
-                    className="h-full w-full object-cover transition duration-700 group-hover:scale-[1.03]"
-                  />
-
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+              <article className="relative overflow-hidden rounded-[2.5rem] border border-[#BCA995]/25 bg-[#E9DED3] p-8 md:p-10">
+                <div className="absolute right-[-45px] top-[-55px] text-[180px] font-light leading-none text-white/25">
+                  01
                 </div>
 
-                <div className="p-8 md:p-10">
-                  <div className="flex items-start justify-between gap-5">
-                    <div>
-                      <p className="text-[10px] uppercase tracking-[0.3em] text-[#927D69]">
-                        A little time for you
-                      </p>
+                <div className="relative">
+                  <p className="text-[10px] uppercase tracking-[0.32em] text-[#907B66]">
+                    A little time for you
+                  </p>
 
-                      <h3 className="mt-3 text-3xl font-light text-[#2B2825]">
-                        The New Mum Experience
-                      </h3>
-                    </div>
+                  <div className="mt-5 flex items-start justify-between gap-5">
+                    <h3 className="max-w-sm text-4xl font-light leading-tight text-[#2D2926]">
+                      The New Mum Experience
+                    </h3>
 
-                    <p className="text-2xl font-light text-[#2B2825]">£65</p>
+                    <p className="text-2xl font-light text-[#2D2926]">£65</p>
                   </div>
 
-                  <p className="mt-6 text-base leading-8 text-[#655D55]">
+                  <p className="mt-8 text-base leading-8 text-[#645C54]">
                     A calm, unhurried escape created especially for new mums.
                     A little invitation to pause, switch off and enjoy
                     something that is completely for you.
                   </p>
+
+                  <div className="mt-10 border-t border-[#2D2926]/10 pt-6">
+                    <p className="text-xs uppercase tracking-[0.25em] text-[#8D7967]">
+                      Up to 2 hours · All-inclusive manicure
+                    </p>
+                  </div>
 
                   <div className="mt-8 flex flex-wrap gap-3">
                     <a
                       href={newMumExperienceUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="rounded-full bg-[#2B2825] px-6 py-4 text-[10px] uppercase tracking-[0.23em] text-white transition hover:bg-[#48413B]"
+                      className="rounded-full bg-[#2C2926] px-6 py-4 text-[10px] uppercase tracking-[0.23em] text-white transition hover:bg-[#47413C]"
                     >
                       Book Experience
                     </a>
@@ -450,7 +447,7 @@ export default function Home() {
                       href={giftCardsUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="rounded-full border border-[#2B2825]/20 px-6 py-4 text-[10px] uppercase tracking-[0.23em] text-[#2B2825] transition hover:border-[#2B2825]"
+                      className="rounded-full border border-[#2C2926]/20 px-6 py-4 text-[10px] uppercase tracking-[0.23em] text-[#2C2926] transition hover:border-[#2C2926]"
                     >
                       Buy as a Gift
                     </a>
@@ -458,44 +455,42 @@ export default function Home() {
                 </div>
               </article>
 
-              <article className="group overflow-hidden rounded-[2.25rem] bg-[#EEE6DC]">
-                <div className="relative h-[280px] overflow-hidden">
-                  <img
-                    src="/images/Products2.png"
-                    alt="Beautiful manicure details at Holly's Hideaway"
-                    className="h-full w-full object-cover transition duration-700 group-hover:scale-[1.03]"
-                  />
-
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+              <article className="relative overflow-hidden rounded-[2.5rem] border border-[#BCA995]/25 bg-[#F0E7DE] p-8 md:p-10">
+                <div className="absolute right-[-45px] top-[-55px] text-[180px] font-light leading-none text-white/30">
+                  02
                 </div>
 
-                <div className="p-8 md:p-10">
-                  <div className="flex items-start justify-between gap-5">
-                    <div>
-                      <p className="text-[10px] uppercase tracking-[0.3em] text-[#927D69]">
-                        For all the good things
-                      </p>
+                <div className="relative">
+                  <p className="text-[10px] uppercase tracking-[0.32em] text-[#907B66]">
+                    For all the good things
+                  </p>
 
-                      <h3 className="mt-3 text-3xl font-light text-[#2B2825]">
-                        The Celebration Experience
-                      </h3>
-                    </div>
+                  <div className="mt-5 flex items-start justify-between gap-5">
+                    <h3 className="max-w-sm text-4xl font-light leading-tight text-[#2D2926]">
+                      The Celebration Experience
+                    </h3>
 
-                    <p className="text-2xl font-light text-[#2B2825]">£65</p>
+                    <p className="text-2xl font-light text-[#2D2926]">£65</p>
                   </div>
 
-                  <p className="mt-6 text-base leading-8 text-[#655D55]">
+                  <p className="mt-8 text-base leading-8 text-[#645C54]">
                     For birthdays, milestones, achievements, thank-yous or
                     simply because. A beautifully indulgent manicure and a
                     little time away from the everyday.
                   </p>
+
+                  <div className="mt-10 border-t border-[#2D2926]/10 pt-6">
+                    <p className="text-xs uppercase tracking-[0.25em] text-[#8D7967]">
+                      Up to 2 hours · All-inclusive manicure
+                    </p>
+                  </div>
 
                   <div className="mt-8 flex flex-wrap gap-3">
                     <a
                       href={celebrationExperienceUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="rounded-full bg-[#2B2825] px-6 py-4 text-[10px] uppercase tracking-[0.23em] text-white transition hover:bg-[#48413B]"
+                      className="rounded-full bg-[#2C2926] px-6 py-4 text-[10px] uppercase tracking-[0.23em] text-white transition hover:bg-[#47413C]"
                     >
                       Book Experience
                     </a>
@@ -504,7 +499,7 @@ export default function Home() {
                       href={giftCardsUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="rounded-full border border-[#2B2825]/20 px-6 py-4 text-[10px] uppercase tracking-[0.23em] text-[#2B2825] transition hover:border-[#2B2825]"
+                      className="rounded-full border border-[#2C2926]/20 px-6 py-4 text-[10px] uppercase tracking-[0.23em] text-[#2C2926] transition hover:border-[#2C2926]"
                     >
                       Buy as a Gift
                     </a>
@@ -513,118 +508,138 @@ export default function Home() {
               </article>
             </div>
 
-            {/* LITTLE LUXURIES */}
-            <div className="mt-16 border-y border-[#2B2825]/10 py-14">
-              <div className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-start">
+            {/* INCLUSIONS */}
+            <div className="mt-20">
+              <div className="grid gap-12 md:grid-cols-[0.7fr_1.3fr]">
                 <div>
-                  <p className="text-[10px] uppercase tracking-[0.34em] text-[#9A8774]">
-                    The little luxuries
+                  <p className="text-[10px] uppercase tracking-[0.35em] text-[#9A8774]">
+                    Every experience includes
                   </p>
 
-                  <h3 className="mt-5 text-3xl font-light leading-tight text-[#2B2825] md:text-4xl">
-                    More than beautiful nails.
+                  <h3 className="mt-5 text-4xl font-light leading-tight text-[#2C2926]">
+                    The little things
+                    <br />
+                    make it special.
                   </h3>
-
-                  <p className="mt-5 max-w-md leading-7 text-[#6B625A]">
-                    Every Experience is designed to feel generous, relaxed and
-                    thoughtfully put together from the moment you arrive to the
-                    little gift you take home.
-                  </p>
                 </div>
 
-                <div className="grid gap-x-10 gap-y-8 sm:grid-cols-2">
+                <div className="grid gap-8 sm:grid-cols-2">
                   {[
                     [
+                      "01",
                       "Your manicure",
-                      "Nail polish, gel or builder gel — your choice.",
+                      "Choose nail polish, gel or builder gel.",
                     ],
                     [
+                      "02",
                       "Your design",
                       "French tip or minimal nail art is included.",
                     ],
                     [
+                      "03",
                       "Your time",
-                      "Up to two unhurried hours for each appointment.",
+                      "Up to two unhurried hours per appointment.",
                     ],
                     [
+                      "04",
                       "Your drink",
-                      "A celebratory drink while you relax.",
+                      "A celebratory drink while you switch off.",
                     ],
                     [
+                      "05",
                       "The finishing touch",
-                      "Chanel hand cream and cuticle oil used during your treatment.",
+                      "Chanel hand cream and cuticle oil used during the treatment.",
                     ],
                     [
+                      "06",
                       "A little something home",
                       "Hand mask, cuticle oil and a mini dried-flower bouquet.",
                     ],
-                  ].map(([title, copy]) => (
-                    <div key={title}>
-                      <p className="text-xs uppercase tracking-[0.24em] text-[#8F7D6B]">
-                        {title}
-                      </p>
+                  ].map(([number, title, copy]) => (
+                    <div
+                      key={title}
+                      className="border-t border-[#2C2926]/10 pt-5"
+                    >
+                      <div className="flex gap-4">
+                        <span className="text-[10px] tracking-[0.22em] text-[#A18C77]">
+                          {number}
+                        </span>
 
-                      <p className="mt-3 leading-7 text-[#514A44]">{copy}</p>
+                        <div>
+                          <p className="text-xs uppercase tracking-[0.23em] text-[#74695F]">
+                            {title}
+                          </p>
+
+                          <p className="mt-3 leading-7 text-[#544D46]">
+                            {copy}
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   ))}
                 </div>
               </div>
             </div>
 
+            {/* FOLLOW-UP TREAT */}
+            <div className="mt-16 rounded-[2.25rem] border border-[#B7A18A]/20 bg-[#FFFDF9]/80 px-8 py-10 text-center backdrop-blur-sm md:px-12">
+              <p className="text-[10px] uppercase tracking-[0.34em] text-[#9A8774]">
+                And one more little thing
+              </p>
+
+              <p className="mx-auto mt-5 max-w-3xl text-2xl font-light leading-10 text-[#2C2926] md:text-3xl">
+                Every Hideaway Experience includes 20% off a future standard
+                manicure — to use yourself or pass on to someone else.
+              </p>
+
+              <p className="mt-4 text-sm text-[#776C62]">
+                Valid for 3 months. Excludes Hideaway Experiences.
+              </p>
+            </div>
+
             {/* GIFTING */}
-            <div className="mt-16 overflow-hidden rounded-[2.5rem] bg-[#2B2825] text-[#F8F3ED]">
-              <div className="grid md:grid-cols-[1fr_0.85fr]">
-                <div className="p-8 md:p-12 lg:p-14">
-                  <p className="text-[10px] uppercase tracking-[0.34em] text-[#CDBBAA]">
+            <div className="relative mt-16 overflow-hidden rounded-[2.75rem] bg-[#2E2A27] px-8 py-14 text-[#F8F3ED] md:px-14 md:py-16">
+              <div className="absolute -right-16 -top-20 h-64 w-64 rounded-full border border-white/10" />
+              <div className="absolute -right-4 -top-8 h-40 w-40 rounded-full border border-white/10" />
+              <div className="absolute -bottom-24 -left-12 h-64 w-64 rounded-full bg-[#B99D81]/10 blur-3xl" />
+
+              <div className="relative grid gap-10 md:grid-cols-[1fr_auto] md:items-end">
+                <div className="max-w-3xl">
+                  <p className="text-[10px] uppercase tracking-[0.36em] text-[#CDBBAA]">
                     Gift a Hideaway Experience
                   </p>
 
                   <h3 className="mt-5 text-4xl font-light leading-tight md:text-5xl">
-                    Give someone a little time that&apos;s entirely theirs.
+                    Something lovely
+                    <br />
+                    to look forward to.
                   </h3>
 
-                  <p className="mt-6 max-w-xl leading-8 text-[#D8CEC5]">
+                  <p className="mt-6 max-w-2xl text-base leading-8 text-[#D8CEC5]">
                     Choose a Hideaway Experience or any gift-card value through
                     Fresha. A complimentary printed Holly&apos;s Hideaway
-                    voucher can also be collected or posted free of charge.
+                    voucher can be collected or posted free of charge.
                   </p>
 
-                  <p className="mt-4 text-sm leading-7 text-[#AFA39A]">
+                  <p className="mt-4 text-sm text-[#AFA39A]">
                     Gift cards are valid for 12 months from purchase.
                   </p>
-
-                  <a
-                    href={giftCardsUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-8 inline-block rounded-full bg-[#F8F3ED] px-7 py-4 text-[10px] uppercase tracking-[0.25em] text-[#2B2825] transition hover:bg-white"
-                  >
-                    Buy a Gift Card
-                  </a>
                 </div>
 
-                <div className="relative min-h-[320px] md:min-h-full">
-                  <img
-                    src="/images/studio.png"
-                    alt="Holly's Hideaway private nail studio in Chelsfield"
-                    className="absolute inset-0 h-full w-full object-cover"
-                  />
-
-                  <div className="absolute inset-0 bg-[#2B2825]/10" />
-                </div>
+                <a
+                  href={giftCardsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-full bg-[#F8F3ED] px-8 py-4 text-center text-[10px] uppercase tracking-[0.27em] text-[#2E2A27] transition hover:bg-white"
+                >
+                  Buy a Gift Card
+                </a>
               </div>
             </div>
 
-            <div className="mt-8 flex flex-col gap-3 text-xs leading-6 text-[#84786D] md:flex-row md:items-center md:justify-between">
-              <p>
-                Hideaway Experiences are excluded from the 15% new-client offer.
-              </p>
-
-              <p>
-                Your 20% follow-up voucher is valid for 3 months on standard
-                manicure services and can be gifted to someone else.
-              </p>
-            </div>
+            <p className="mt-8 text-center text-xs leading-6 text-[#887C71]">
+              Hideaway Experiences are excluded from the 15% new-client offer.
+            </p>
           </div>
         </section>
       </FadeIn>
