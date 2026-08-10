@@ -299,11 +299,19 @@ export default function Home() {
                 <span className="h-px flex-1 bg-black/20" />
               </div>
 
-              <h2 className="mt-7 text-5xl font-light uppercase leading-[0.95] tracking-[-0.045em] text-[#222] md:text-7xl lg:text-[88px]">
-                The Hideaway
-                <br />
-                Experiences
-              </h2>
+              <div className="relative mt-7">
+                <span className="pointer-events-none absolute left-1 top-2 hidden font-light italic leading-none tracking-[-0.055em] text-black/8 md:block md:text-7xl lg:text-[88px]">
+                  Hideaway
+                </span>
+
+                <h2 className="relative z-10 text-5xl font-light leading-[0.9] tracking-[-0.055em] text-[#222] md:text-7xl lg:text-[88px]">
+                  The <span className="italic">Hideaway</span>
+                  <br />
+                  Experiences
+                </h2>
+
+                <div className="mt-5 h-[3px] w-24 -rotate-2 rounded-full bg-black/80" />
+              </div>
             </div>
 
             {/* LITTLE LUXURIES HERO */}
@@ -504,7 +512,7 @@ export default function Home() {
                 </p>
 
                 <p className="mt-4 text-4xl font-light text-[#222]">
-                  Twenty per cent off
+                  20% off
                 </p>
 
                 <p className="mt-5 max-w-lg text-sm leading-7 text-[#5B544E]">
