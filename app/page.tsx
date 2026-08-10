@@ -321,7 +321,7 @@ export default function Home() {
                   </div>
 
                   <h3 className="mt-4 text-3xl font-light leading-tight text-[#F6F1EA] md:text-4xl">
-                    The little luxuries
+                    Includes:
                   </h3>
                 </div>
 
