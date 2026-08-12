@@ -296,6 +296,21 @@ export default function Home() {
                 </div>
               ))}
             </div>
+
+            <div className="border-t border-black/10 pt-8">
+              <div className="max-w-3xl space-y-3 text-sm">
+                <p className="leading-7 text-[#555]">
+                  Blue Light Card holders receive 10% off manicures on
+                  presentation of a valid card at payment.
+                </p>
+
+                <p className="leading-7 text-[#666]">
+                  A selection of pale and natural shades is available for
+                  clients who prefer, or whose workplace requires, a more subtle
+                  finish.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
       </FadeIn>
