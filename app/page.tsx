@@ -106,17 +106,6 @@ export default function Home() {
         }}
       />
 
-      {/* TOP BANNER */}
-      <div className="sticky top-0 z-50 border-b border-black/10 bg-[#EFE7DC]">
-        <div className="mx-auto flex items-center justify-center gap-3 px-4 py-3 text-center">
-          <div className="h-2 w-2 animate-pulse rounded-full bg-[#B08D57]" />
-
-          <p className="text-[9px] uppercase tracking-[0.22em] text-black md:text-xs md:tracking-[0.3em]">
-            15% OFF APPOINTMENTS FOR NEW CLIENTS
-          </p>
-        </div>
-      </div>
-
       {/* HERO */}
       <section className="relative h-screen overflow-hidden">
         <img
