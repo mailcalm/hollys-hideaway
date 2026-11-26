@@ -3,7 +3,7 @@ import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
 
 const bookingUrl =
-  "https://www.fresha.com/book-now/hollys-hideaway-lcdzivqr/all-offer?share=true&pId=3032465";
+  "https://www.fresha.com/book-now/hollys-hideaway-lcdzivqr/services?lid=3134216&share=true&pId=3032465";
 
 const celebrationExperienceUrl =
   "https://www.fresha.com/book-now/hollys-hideaway-lcdzivqr/services?lid=3134216&eid=5463215&oiid=sv%3A28764017&share=true&pId=3032465";
@@ -287,6 +287,15 @@ export default function Home() {
             </div>
 
             <div className="border-t border-black/10 pt-8">
+              <a
+                href={bookingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-8 inline-block rounded-full bg-black px-7 py-4 text-[10px] tracking-[0.25em] text-white transition hover:bg-[#2F2F2F] md:px-10 md:py-5 md:text-xs md:tracking-[0.35em]"
+              >
+                BOOK APPOINTMENT
+              </a>
+
               <div className="max-w-3xl space-y-3 text-sm">
                 <p className="leading-7 text-[#555]">
                   Blue Light Card holders receive 10% off manicures on
@@ -572,11 +581,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-            <p className="mt-6 text-center text-[10px] uppercase tracking-[0.18em] text-[#8D8176]">
-              Hideaway Experiences are excluded from the fifteen per cent
-              new-client offer.
-            </p>
           </div>
         </section>
       </FadeIn>
